@@ -1,0 +1,27 @@
+<style>
+    div{
+          width: 100px;
+          height: 100px;
+          margin:50px;
+          /*border: 10px dotted red;*/
+          display: inline-block;
+  }
+  .blur{
+          /*box-shadow: 0 0  20px ;*/
+          box-shadow: 0 0  20px green; /*也可以自定义颜色*/
+  }  
+  .spread-positive{
+          box-shadow: 0 0 20px 5px ;
+          /* box-shadow: 0 0 20px 5px green;*/ /*也可以自定义颜色*/
+  }
+  .spread-negative{
+          box-shadow: 0 0 20px -5px ;
+          /* box-shadow: 0 0 20px -5px green;*/ /*也可以自定义颜色*/
+  }
+  </style>
+</head>
+<body>
+  <div class="blur"></div>
+  <div class="spread-positive"></div>
+  <div class="spread-negative"></div>
+</body>
